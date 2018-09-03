@@ -1,0 +1,10 @@
+.d-flex {
+  display: flex;
+  flex-flow: wrap;
+}
+.d-flex > [class ^= "col-sm"] {
+  display: flex;
+}
+img {
+  object-fit: cover;
+}
